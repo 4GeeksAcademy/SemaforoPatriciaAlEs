@@ -1,11 +1,51 @@
-/* 
+.text-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background: url(../img/fondo-semaforo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.contenedorSemaforo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30vw;
+    border: 5px solid #000;
+    width: 150px;
+    background-color: grey;
+    padding: 20px;
+    margin-top: 100px;
+    gap: 10px;
+    border-radius: 10%;
+}
 
-*/
+.luzRoja,
+.luzAmbar,
+.luzVerde {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #000;
+}
+
+.luzRoja {
+    background-color: red;
+}
+
+.luzAmbar {
+    background-color: orange;
+}
+
+.luzVerde {
+    background-color: green;
+    
+}
+
+.glow {
+    box-shadow: 0px 0px 9px 14px white;
+}
